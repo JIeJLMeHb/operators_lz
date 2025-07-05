@@ -20,5 +20,5 @@ elif choice == 1:
                 max_ind = j
         random_array[i], random_array[max_ind] = random_array[max_ind], random_array[i]
 else:
-    print("Вы неправильно указали пункт выбора, посмотрите на массив ещё раз.")
+    print("Вы неправильно указали пункт выбора, посмотрите на массив ещё раз.") #
 print(f"Массив отсортированных чисел: {random_array}")
